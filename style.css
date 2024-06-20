@@ -1,0 +1,119 @@
+body{
+    background-image: url("https://static.vecteezy.com/ti/fotos-gratis/p1/28216975-luz-cafe-pausa-ambiente-gratis-foto.jpg");
+    background-size: 2300px;
+    background-position-y: top;
+}
+/*-----------------------------------------------------------------------*/
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listaMenu1{
+    width: 30%;
+    height: 60px;
+}
+.listaMenu1 ul{
+    list-style-type: none;
+    display: flex;
+    width: 80%;
+}
+.listaMenu1 li{
+    width: 50%;
+    height: 25px;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.logoMenu{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    width: 20%;
+    height: 60px;
+}
+.logoMenu h1{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.listaMenu2{
+    width: 34%;
+    height: 60px;
+}
+.listaMenu2 ul{
+    list-style-type: none;
+    display: flex;
+    width: 80%;
+}
+.listaMenu2 li{
+    width: 50%;
+    height: 25px;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+/*-----------------------------------------------------------------------*/
+
+section{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.texto1{
+    width: 20%;
+    height: 40px;
+}
+.texto1 p{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.logoSection{
+    width: 20%;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.logoSection h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.texto2{
+    width: 40%;
+    height: 120px;
+    margin-bottom: 25px;
+}
+.texto2 p{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+/*-----------------------------------------------------------------------*/
+
+footer{
+    padding: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+.adm{
+    color: white;
+}
+.local{
+    color: white;
+}
